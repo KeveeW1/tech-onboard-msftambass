@@ -36,6 +36,7 @@ const skillsList = [
   "HTML/CSS + JavaScript",
   "SQL",
   "R",
+  "Linux",
   "Figma",
   "Video Editing",
 ];

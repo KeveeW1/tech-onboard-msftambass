@@ -20,7 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/spaceNeedle.jpg";
-const imageAltText = "cloud emoji image";
+const imageAltText = "space needle picture";
 
 /**
  * Project list

@@ -19,9 +19,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
+import image from "../images/spaceNeedle.jpg";
+const imageAltText = "cloud emoji image";
 
 /**
  * Project list
@@ -31,28 +30,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "ReNews",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "ReNews takes a piece of news that the user feeds into it then, it runs an automatic check to verify that news and informs the user whether it's fake or real. ReNews also recommend users, based on their interests, stories, articles, and/or other information for their reference.",
+    url: "https://devpost.com/software/renews-v4j7h9",
   },
   {
-    title: "Web Development for Beginners",
+    title: "SafeScroll",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "SafeScroll is a Google Chrome extension that blurs certain content (text and images), which can be customized using the extension interface. When you first open the extension, there is a text box where you can add in triggering words and delete them as needed. Once you enter the words, you can go ahead and SafeScroll! Also, our extension has a toggle blur where you can turn off the function but keep the word box if someone happens to use your laptop.",
+    url: "https://devpost.com/software/safescroll",
   },
   {
-    title: "My Resume Site",
+    title: "Webtoon: Bits & Bytes",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My digital comic: Interested in learning about computers or cybersecurity? Join Bit and Byte in the learning journey as they venture into a PC to learning techniques used in the real digital security workspace!",
+    url: "https://www.webtoons.com/en/canvas/bits-and-bytes/list?title_no=847572",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "SmartFuel",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Our web platform allows the user to toggle between 2 routes that both include a pitstop for gas -- the shortest and the cheapest one in terms of gas cost, visualizing a clear route on our map interface. We use AI to provide a unique experience for drivers looking to find the most efficient and affordable routes. Our inhouse AI chatbot provides an experience akin to chatting with an old friend.",
+    url: "https://devpost.com/software/fuel-maps",
   },
 ];
 

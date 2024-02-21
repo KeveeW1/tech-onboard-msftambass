@@ -24,19 +24,20 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "👋🏻 A current freshman at the University of Washington studying Informatics with a focus in cybersecurity and software development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Java",
+  "Python",
+  "HTML/CSS + JavaScript",
+  "SQL",
+  "R",
+  "Figma",
+  "Video Editing",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about educating the next generation and bringing more women into the field of cybersecurity and STEM.";
 
 const About = () => {
   return (
@@ -53,11 +54,12 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "black",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          color: "white"
         }}
       >
         <h2>About Myself</h2>
@@ -70,6 +72,7 @@ const About = () => {
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            color: "white"
           }}
         >
           {skillsList.map((skill) => (
